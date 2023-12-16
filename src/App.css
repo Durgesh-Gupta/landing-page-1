@@ -48,6 +48,7 @@
   --primary-color: #b8aed1;
   --text-color: #383236;
   --accent-color: #aa599c;
+  --secondary-background-color: rgb(160, 128, 190);
   --border-color: #dbcedd;
   --black-color: #000000;
   
@@ -137,4 +138,80 @@ font-size: 14px;
 }
 .p-absolute{
   position: absolute
+}
+
+/* Stratergy and  */
+
+.bg-container{
+  background-color: var(--secondary-background-color);
+  height: 90vh;
+  padding: 2%;
+  display: flex;
+  flex-direction: row;
+}
+.light-border{
+  border: 1px solid rgba(255, 255, 255, 0.332);
+}
+ul{
+  list-style: none;
+  padding: 0 0 0 5% ;
+  text-align: left;
+  border: 1px solid rgba(255, 255, 255, 0.332);
+  border-style: none solid none none;
+  /* border-style: none solid none none; */
+}
+ul li{
+  font-size: 17px;
+  margin: 4% 0;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.253);
+  font-weight: 100;
+ 
+}
+.li-first{
+  border: 1px solid rgba(255, 255, 255, 0.332);
+border-style: none none solid none;
+}
+ul li:hover,.li-first{
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+border: 1px solid rgba(255, 255, 255, 0.332);
+border-style: none none solid none;
+}
+
+.layer-outline{
+text-align: center;
+font-size: 14px;
+padding: 6px 0;
+border-radius: 4px;
+width:90%;
+background-color: white;
+color: black;
+margin-top: 2%;
+transition: transform .2s;
+}
+.layer-outline:hover{
+  transform: scale(1.1); 
+}
+
+.layer-outline ~ .second{
+  background-color: rgb(176, 149, 200);
+  color: white;
+}
+
+.layer-outline ~ .third{
+  background-color: transparent;
+  color: white;
+  border: 1px dotted white;
+}
+
+.layer-outline ~ .forth{
+  background-color: rgb(109, 134, 186);
+  color: white;
+}
+
+.layer-outline ~ .fifth{
+  background-color: rgb(163, 109, 186);
+  color: white;
 }
