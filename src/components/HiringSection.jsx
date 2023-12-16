@@ -26,6 +26,7 @@ function HiringSection() {
             alignItems: "center",
             fontSize: "24px",
             fontWeight: "bold",
+            margin:'0 15px'
           }}
         >
           we're

@@ -259,7 +259,7 @@ ul li:hover,
   color: white;
 }
 
-.sub-component-large{
+.sub-component-large {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -270,10 +270,10 @@ ul li:hover,
   color: white;
   border: 1px dotted rgba(255, 255, 255, 0.332);
   background-color: var(--secondary-background-color);
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
-.mv-5{
+.mv-5 {
   margin-top: 5%;
   margin-bottom: 5%;
 }
@@ -281,12 +281,11 @@ flex-direction: column;
 
 .client-center {
   display: flex;
-flex-direction: column;
+  flex-direction: column;
   height: 70vh;
   padding: 2% 15%;
-  
 }
-.heading{
+.heading {
   color: var(--accent-color);
   font-size: 36px;
   text-align: left;
@@ -294,24 +293,28 @@ flex-direction: column;
   font-weight: bold;
 }
 
-.imageContainer{
+.imageContainer {
   width: 60vw;
-height: 60vh;
+  height: 60vh;
 }
-.clientimg{
+.clientimg {
   width: 120px;
   height: 200px;
   margin: 20px;
-  
+  transition: transform 0.2s;
 }
-.hiringContainer{
+.clientimg:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.hiringContainer {
   background-color: var(--accent-color);
   padding: 2% 2% 2% 2%;
   display: flex;
   flex-direction: row;
-justify-content: space-between;
+  justify-content: space-between;
 }
-.subText{
+.subText {
   color: white;
   font-size: 28px;
   text-align: left;
@@ -319,7 +322,32 @@ justify-content: space-between;
   display: flex;
   flex-direction: column;
 }
-.squareImage{
+.squareImage {
   width: 150px;
   height: 150px;
+  transition: transform 0.2s;
+}
+.squareImage:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.footer-container {
+  background-color: #282c34;
+  color: white;
+  padding: 1% 2%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  transition: transform 0.2s;
+}
+.icon:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.pointer {
+  cursor: pointer;
 }
