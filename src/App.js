@@ -3,6 +3,7 @@ import './App.css';
 import NavigationBar from './components/NavigationBar';
 import GrowthPartner from './components/GrowthPartner';
 import StrategySection from './components/StrategySection';
+import ClientSection from './components/ClientSection';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <NavigationBar />
       <GrowthPartner />
       <StrategySection />
+      <ClientSection />
     </div>
   );
 }
