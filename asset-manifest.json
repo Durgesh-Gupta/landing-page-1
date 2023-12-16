@@ -1,18 +1,23 @@
 {
   "files": {
-    "main.css": "/landing-page-1/static/css/main.50107c42.css",
-    "main.js": "/landing-page-1/static/js/main.5be56dff.js",
+    "main.css": "/landing-page-1/static/css/main.74379543.css",
+    "main.js": "/landing-page-1/static/js/main.24fdcc56.js",
     "static/js/787.f4b0d205.chunk.js": "/landing-page-1/static/js/787.f4b0d205.chunk.js",
+    "static/media/three.jpg": "/landing-page-1/static/media/three.02f7ad428bb6ae6e043f.jpg",
+    "static/media/two.jpg": "/landing-page-1/static/media/two.37fcc82f8ea3e322a310.jpg",
     "static/media/growthpartner.jpg": "/landing-page-1/static/media/growthpartner.a6c23986ecb1bb21955e.jpg",
+    "static/media/one.jpg": "/landing-page-1/static/media/one.f5cadc8af367509d7f93.jpg",
+    "static/media/instagram.png": "/landing-page-1/static/media/instagram.edb90ecc706a7a25542b.png",
     "static/media/HOWL Color Digital New Breed Logo.png": "/landing-page-1/static/media/HOWL Color Digital New Breed Logo.c38236dfa4a0e09ffaf7.png",
+    "static/media/twitter.png": "/landing-page-1/static/media/twitter.8e65601e69067aadfe55.png",
     "static/media/logo.svg": "/landing-page-1/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/landing-page-1/index.html",
-    "main.50107c42.css.map": "/landing-page-1/static/css/main.50107c42.css.map",
-    "main.5be56dff.js.map": "/landing-page-1/static/js/main.5be56dff.js.map",
+    "main.74379543.css.map": "/landing-page-1/static/css/main.74379543.css.map",
+    "main.24fdcc56.js.map": "/landing-page-1/static/js/main.24fdcc56.js.map",
     "787.f4b0d205.chunk.js.map": "/landing-page-1/static/js/787.f4b0d205.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.50107c42.css",
-    "static/js/main.5be56dff.js"
+    "static/css/main.74379543.css",
+    "static/js/main.24fdcc56.js"
   ]
 }
