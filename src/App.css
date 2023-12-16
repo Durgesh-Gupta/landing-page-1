@@ -304,3 +304,22 @@ height: 60vh;
   margin: 20px;
   
 }
+.hiringContainer{
+  background-color: var(--accent-color);
+  padding: 2% 2% 2% 2%;
+  display: flex;
+  flex-direction: row;
+justify-content: space-between;
+}
+.subText{
+  color: white;
+  font-size: 28px;
+  text-align: left;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+.squareImage{
+  width: 150px;
+  height: 150px;
+}
