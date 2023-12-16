@@ -38,13 +38,23 @@
 }
 
 /* Design Css */
-:root {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto+Slab&display=swap');@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto+Slab&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+  :root {
   --background-color: #fefefe;
   --primary-color: #b8aed1;
   --text-color: #383236;
   --accent-color: #aa599c;
   --border-color: #dbcedd;
   --black-color: #000000;
+  
+
+}
+*{
+  font-family: 'Poppins', sans-serif;
 }
 
 /* Navbar style  */
@@ -71,7 +81,60 @@
   width: 30px;
   height: 5px;
 }
+
+/* First Section : Growth a Partner */
+
+.Container-center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  padding: 2% 15%;
+}
+.gp-text-container{
+color: var(--black-color);
+text-align: left;
+font-size: 14px;
+
+}
+.heading-text{
+  font-size: 60px;
+  -webkit-text-stroke: 2px var(--accent-color);
+  -webkit-text-fill-color: transparent;  
+  font-family: 'Bebas Neue', sans-serif;
+  text-align: left;
+  z-index: 10;
+}
+
+
+
+/* common style */
 .mt-6{
   margin-top: 6px;
 
+}
+.w-100{
+  width: 100%;
+
+}
+.d-row{
+  display: flex;
+  flex-direction: row;
+}
+.gpimage{
+  height: 350px;
+  /* z-index: 5; */
+  opacity: 0.9;
+}
+.f-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p-relative{
+  position: relative;
+}
+.p-absolute{
+  position: absolute
 }
